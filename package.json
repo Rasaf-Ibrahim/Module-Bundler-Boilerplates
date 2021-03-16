@@ -1,13 +1,22 @@
 {
-  "name": "Compiling SCSS",
+  "name": "Laravel-Mix-Boilerplates",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "```\r npm install\r ```",
+  "main": "webpack.mix.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rasaf-Ibrahim/Laravel-Mix-Boilerplates.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rasaf-Ibrahim/Laravel-Mix-Boilerplates/issues"
+  },
+  "homepage": "https://github.com/Rasaf-Ibrahim/Laravel-Mix-Boilerplates#readme",
   "devDependencies": {
     "laravel-mix": "^6.0.13",
     "postcss": "^8.1.14",
