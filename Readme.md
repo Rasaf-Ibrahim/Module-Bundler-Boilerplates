@@ -5,7 +5,7 @@
 
 |            Project Name            |                 Branch Link \| (Branch Name)                 |
 | :--------------------------------: | :----------------------------------------------------------: |
-|           Compiling SCSS           | [Branch Link](https://github.com/Rasaf-Ibrahim/Laravel-Mix-Boilerplates/tree/001) \| (001) |
-| Compiling SCSS & Modern JavaScript | [Branch Link](https://github.com/Rasaf-Ibrahim/Laravel-Mix-Boilerplates/tree/002) \| (002) |
+|           Compile SCSS           | [Branch Link](https://github.com/Rasaf-Ibrahim/Laravel-Mix-Boilerplates/tree/001) \| (001) |
+| Compile SCSS & Modern JavaScript | [Branch Link](https://github.com/Rasaf-Ibrahim/Laravel-Mix-Boilerplates/tree/002) \| (002) |
 |                                    |                                                              |
 
