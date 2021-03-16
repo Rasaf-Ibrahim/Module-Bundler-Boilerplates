@@ -1,4 +1,4 @@
-### Compiling SCSS
+### Compiling SCSS & Modern JavaScript
 
 
 #### Command to Install Dependencies after Cloning this Repository

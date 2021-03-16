@@ -2,9 +2,11 @@
 let mix = require('laravel-mix');
 
 // Sass
-mix.sass('scss/style.scss', 'dist');
+mix.sass('src/scss/style.scss', 'dist');
 
+// JS
 
+mix.js('src/app.js', 'dist')
 
 
 /*
