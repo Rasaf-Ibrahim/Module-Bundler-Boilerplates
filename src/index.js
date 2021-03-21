@@ -1,1 +1,1 @@
-import all from "./js/all";
+import './js/all'

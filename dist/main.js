@@ -39,7 +39,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sky__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sky */ "./src/js/sky.js");
 
 
-document.getElementById("change3").innerHTML = "Check 'all.js' file. This text is from 'all.js' actually. You will see that no 'export' has been defined in 'all.js' file but after importing 'all.js' file in 'index.js' file, everything of all.js has been imported there and working just fine!";
+document.getElementById("change3").innerHTML = "This text is from 'all.js";
 
 /***/ }),
 
