@@ -1,0 +1,23 @@
+{
+  "name": "webpack-starters",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A collection of different Webpack setups for quick referencing or starting from",
+  "scripts": {
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "NODE_ENV=production webpack",
+    "build-dev": "webpack"
+  },
+  "author": "Jimmy DC",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {}
+}
