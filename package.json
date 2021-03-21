@@ -1,15 +1,15 @@
 {
-  "name": "webpack-starters",
+  "name": "build-tool-boilerplates",
   "version": "1.0.0",
-  "private": true,
-  "description": "A collection of different Webpack setups for quick referencing or starting from",
+  "description": "A collection of different build-tool setups for quick starting from",
   "scripts": {
-    "start": "webpack serve",
+    "serve": "webpack serve",
     "watch": "webpack --watch",
-    "build": "NODE_ENV=production webpack",
-    "build-dev": "webpack"
+    "build-dev": "webpack",
+    "build-prod": "NODE_ENV=production webpack"
+    
   },
-  "author": "Jimmy DC",
+  "author": "Rasaf Ibrahim",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.10",
