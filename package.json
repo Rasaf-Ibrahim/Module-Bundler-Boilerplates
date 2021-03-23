@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "A collection of different build-tool setups for quick starting from",
   "scripts": {
-    "serve": "webpack serve",
     "watch": "webpack --watch",
-    "build-dev": "webpack",
-    "build-prod": "NODE_ENV=production webpack"
-    
-  },
+    "serve": "webpack serve",
+    "build": "webpack" 
+   },
+
+
   "author": "Rasaf Ibrahim",
   "license": "ISC",
   "devDependencies": {

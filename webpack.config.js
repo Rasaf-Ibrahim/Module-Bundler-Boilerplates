@@ -1,11 +1,22 @@
-const mode = process.env.NODE_ENV || "development";
+
+const path = require('path')
+// path is needed to define output folder. As Path comes with node, we call it here by using require. 
 
 module.exports = {
-  // mode defaults to 'production' if not set
-  mode: mode,
 
-  // entry not required if using `src/index.js` default
-  // output not required if using `dist/main.js` default
+mode: 'development',
+// Comment out mode when you want to build for production. Because mode defaults to 'production' if not set.
+ 
+
+
+entry:  './src/index.js',
+output: {
+  filename:'main.js',
+  path: path.resolve(__dirname, 'dist')
+},
+
+// If we use `src/index.js` for entry and `dist/main.js` for output, then  we don't need to configure entry and output. Because `src/index.js` for entry and `dist/main.js` for output is default in webpack. But for any other path, we need to configure.
+
 
   module: {
     rules: [
@@ -13,17 +24,24 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          // without additional settings, this will reference .babelrc
           loader: "babel-loader",
+
+          // without additional settings, this will reference .babelrc
         },
       },
     ],
   },
 
-  devtool: "source-map",
 
-  // required if using webpack-dev-server
+  devtool: "source-map",
+  // Source-map helps to debug code. Browsers will only attempt to download the source map when we open dev tools.
+
+  
   devServer: {
     contentBase: "./dist",
   },
+// YOu have to define output folder to use live reload. If you change output folder, also change that here. 
+
+
 };
+
