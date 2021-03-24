@@ -4,7 +4,8 @@ const path = require('path')
 
 module.exports = {
 
-mode: 'development',
+// mode: 'development',
+
 // Comment out mode when you want to build for production. Because mode defaults to 'production' if not set.
  
 
@@ -30,10 +31,13 @@ output: {
         },
       },
       {
-        test: /\.css$/i,
+        test: /\.(s[ac]|c)ss$/i,
         use: [
           "style-loader",
-           "css-loader"],
+           "css-loader",
+          "sass-loader"
+          // according to the docs, sass-loader should be at the bottom, which
+        ],
       },
     ],
   },
