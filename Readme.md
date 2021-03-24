@@ -1,6 +1,6 @@
 
 
-# Info about this boilerplate:
+## Info about this boilerplate:
 
 ### Build Tool: 
 
