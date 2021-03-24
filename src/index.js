@@ -1,1 +1,5 @@
-import './js/all'
+// CSS
+import './style.css';
+
+// JS
+import './js/all';

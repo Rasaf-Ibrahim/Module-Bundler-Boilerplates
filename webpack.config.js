@@ -29,6 +29,12 @@ output: {
           // without additional settings, this will reference .babelrc
         },
       },
+      {
+        test: /\.css$/i,
+        use: [
+          "style-loader",
+           "css-loader"],
+      },
     ],
   },
 
@@ -45,3 +51,4 @@ output: {
 
 };
 
+// Note: Everytime you edit, webpack.config.js, you need to rerun 'npm run serve'(check package.json) command. 
