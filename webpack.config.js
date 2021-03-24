@@ -45,3 +45,4 @@ output: {
 
 };
 
+// Note: Everytime you edit, webpack.config.js, you need to rerun 'npm run serve'(check package.json) command. 
