@@ -1,5 +1,5 @@
 
-> ### "Main branch is empty but there are some other branches in this repository. Each branch has a different project."
+> ### "Main branch is empty but there are some other branches in this repository. Each branch has a different boilerplate."
 
 
 
