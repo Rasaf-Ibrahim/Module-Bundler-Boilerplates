@@ -56,3 +56,5 @@ output: {
 };
 
 // Note: Everytime you edit, webpack.config.js, you need to rerun 'npm run serve'(check package.json) command. 
+
+// Note: To output a .css file(external css) instead of internal css, we can use 'Mini CSS Extract Plugin'.
