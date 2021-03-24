@@ -34,9 +34,13 @@ output: {
         test: /\.(s[ac]|c)ss$/i,
         use: [
           "style-loader",
-           "css-loader",
+          "css-loader",
+          "postcss-loader",
+
+
+          
           "sass-loader"
-          // according to the docs, sass-loader should be at the bottom, which
+          // according to the docs, sass-loader should be at the bottom
         ],
       },
     ],
