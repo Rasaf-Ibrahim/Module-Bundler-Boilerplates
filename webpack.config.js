@@ -52,7 +52,7 @@ output: {
 
   
   devServer: {
-    contentBase: "./dist",
+    contentBase: "./dist"
   },
 // YOu have to define output folder to use live reload. If you change output folder, also change that here. 
 
