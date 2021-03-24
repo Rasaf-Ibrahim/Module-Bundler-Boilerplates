@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "A collection of different build-tool setups for quick starting from",
   "scripts": {
-    "watch": "webpack --watch",
-    "serve": "webpack serve",
-    "build": "webpack" 
+    "build": "webpack",
+    "build-live": "webpack --watch",
+    "serve": "webpack serve"
    },
 
 
