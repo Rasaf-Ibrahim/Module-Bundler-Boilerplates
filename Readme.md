@@ -20,6 +20,7 @@ Webpack
 - Sass/SCSS
 
 - PostCSS
+
 ```
 
 
@@ -29,7 +30,7 @@ Webpack
 ```
 - Babel
 
-- Autoprefixer (With PostCSS)
+- postcss-preset-env
 
 - Browserlist
 ```
