@@ -2,7 +2,7 @@
 > ### "Main branch is empty but there are some other branches in this repository. Each branch has a different boilerplate."
 
 
-#### Build-Tool : Webpack
+### Build-Tool : Webpack
 
 
 | Bundle, Compile                      |                 Branch Link \| (Branch Name)                 |
@@ -16,7 +16,7 @@
 
 
 
-#### Build-Tool : Laravel Mix
+### Build-Tool : Laravel Mix
 
 | Bundle, Compile          |                 Branch Link \| (Branch Name)                 |
 | :----------------------- | :----------------------------------------------------------: |
