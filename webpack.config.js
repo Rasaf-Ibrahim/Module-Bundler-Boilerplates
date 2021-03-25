@@ -2,6 +2,11 @@
 const path = require('path')
 // path is needed to define output folder. As Path comes with node, we call it here by using require. 
 
+
+const {VueLoaderPlugin} = require('vue-loader');
+
+
+
 module.exports = {
 
 // mode: 'development',
@@ -21,15 +26,27 @@ output: {
 
   module: {
     rules: [
+
+      {
+        test: /\.vue$/,
+        exclude: /node_modules/,
+        use: [
+          
+          "vue-loader"
+        ]
+        },
+
+
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: {
-          loader: "babel-loader",
+        use: [
+           "babel-loader",
 
           // without additional settings, this will reference .babelrc
+        ]
         },
-      },
+      
       {
         test: /\.(s[ac]|c)ss$/i,
         use: [
@@ -43,8 +60,18 @@ output: {
           // according to the docs, sass-loader should be at the bottom
         ],
       },
+
+      
+
+
     ],
   },
+
+ 
+
+  plugins: [
+    new VueLoaderPlugin(),
+  ],
 
 
   devtool: "source-map",
