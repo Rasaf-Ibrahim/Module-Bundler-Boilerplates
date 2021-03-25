@@ -22,4 +22,4 @@
 | :----------------------- | :----------------------------------------------------------: |
 | SCSS                     | [Branch Link](https://github.com/Rasaf-Ibrahim/Build-Tool-Boilerplates/tree/001) \| (001) |
 | SCSS & Modern JavaScript | [Branch Link](https://github.com/Rasaf-Ibrahim/Build-Tool-Boilerplates/tree/002) \| (002) |
-|                          |                                                              |
+| Tailwindcss, Vue         | [Branch Link](https://github.com/Rasaf-Ibrahim/Build-Tool-Boilerplates/tree/010) \| (010) |
