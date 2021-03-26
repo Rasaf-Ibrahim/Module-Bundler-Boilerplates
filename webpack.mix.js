@@ -4,10 +4,12 @@ const mix = require('laravel-mix');
 mix
 
   // JS
-  .js('./src/js/app.js', 'dist')
+   .js('./src/js/app.js', 'dist').vue({ version: 2 })
+ 
+
 
   // CSS
-  .postCss('./src/css/style.css', 'dist', [
+   .postCss('./src/css/style.css', 'dist', [
     require('postcss-import'),
     require('tailwindcss'),
     require('postcss-nested'),

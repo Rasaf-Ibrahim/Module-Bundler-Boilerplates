@@ -1,9 +1,11 @@
-/**
- * App
- */
+import Vue from 'vue';
 
-import component from './components/component';
 
-document.addEventListener('DOMContentLoaded', function() {
-  component();
+new Vue({
+    el: '#app',
+    data() {
+        return {
+          text: 'My name is Rasaf'
+        }
+    },
 });
