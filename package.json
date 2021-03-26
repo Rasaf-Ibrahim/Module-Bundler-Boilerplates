@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "A collection of different build-tool setups for quick starting from",
   "scripts": {
+    "serve": "mix watch --hot",
     "dev": "mix",
     "dev-watch": "mix watch",
     "prod": "mix --production",
-    "prod-watch": "NODE_ENV=production mix watch",
-    "watch-poll": "mix watch -- --watch-options-poll=1000",
-    "hot": "mix watch --hot"
+    "watch-poll": "mix watch -- --watch-options-poll=1000"
+    
   },
   "author": "Rasaf Ibrahim",
   "license": "ISC",
