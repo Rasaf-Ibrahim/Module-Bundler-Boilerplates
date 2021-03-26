@@ -1,12 +1,10 @@
 import Vue from 'vue';
 
-
-
 new Vue({
-    el: '#app',
+    el: '#water',
     data() {
         return {
-          text: 'My name is Rasaf'
+          text: 'I am from water.js'
         }
     },
 });

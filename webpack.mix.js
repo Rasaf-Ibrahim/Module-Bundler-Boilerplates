@@ -4,7 +4,8 @@ const mix = require('laravel-mix');
 mix
 
   // JS
-   .js('./src/js/app.js', 'dist').vue({ version: 2 })
+   .js('./src/js/app.js', 'dist/app.js').vue({ version: 2 })
+   .js('./src/js/component/water.js', 'dist/app.js').vue({ version: 2 })
  
 
 
