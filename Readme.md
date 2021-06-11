@@ -1,1 +1,1 @@
-### Js, Tailwindcss with laravel mix
+### Tailwindcss with laravel mix

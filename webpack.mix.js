@@ -3,8 +3,6 @@ const mix = require('laravel-mix');
 
 mix
 
-  // JS
-  .js('./src/js/app.js', 'dist')
 
   // CSS
   .postCss('./src/css/style.css', 'dist', [

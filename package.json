@@ -7,7 +7,6 @@
     "dev": "mix",
     "dev-watch": "mix watch",
     "prod": "mix --production"
-    
   },
   "author": "Rasaf Ibrahim",
   "license": "ISC",
