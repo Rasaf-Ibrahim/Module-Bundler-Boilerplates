@@ -22,6 +22,7 @@
 | :--------------- | :----------------------------------------------------------: |
 | SCSS             | [Branch Link](https://github.com/Rasaf-Ibrahim/Build-Tool-Boilerplates/tree/001) \| (001) |
 | SCSS, JS         | [Branch Link](https://github.com/Rasaf-Ibrahim/Build-Tool-Boilerplates/tree/002) \| (002) |
+| TailwindCSS | [Branch Link](https://github.com/Rasaf-Ibrahim/Build-Tool-Boilerplates/tree/010) \| (010) |
 | JS,TailwindCSS | [Branch Link](https://github.com/Rasaf-Ibrahim/Build-Tool-Boilerplates/tree/008) \| (008) |
 | TailwindCSS,Vue | [Branch Link](https://github.com/Rasaf-Ibrahim/Build-Tool-Boilerplates/tree/009) \| (009) |
 |  |  |
