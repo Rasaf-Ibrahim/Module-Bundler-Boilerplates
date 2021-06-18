@@ -1,9 +1,0 @@
-/* Base */
-@import 'tailwindcss/base';
-
-/* Component */
-@import 'tailwindcss/components';
-
-
-/* Utilities */
-@import "tailwindcss/utilities";
