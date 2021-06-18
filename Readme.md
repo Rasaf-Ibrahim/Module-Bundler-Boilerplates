@@ -11,7 +11,7 @@ npm install
 #### Command for Live Compiling and Making Bundle
 
 ```
-npx mix watch
+npx run serve
 ```
 
 #### Command for production
