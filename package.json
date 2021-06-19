@@ -1,11 +1,11 @@
 {
-	"name": "Laravel-Mix-Boilerplates",
+
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"serve": "mix watch",
-		"build": "mix --production"
+		"dev": "mix watch",
+		"prod": "mix --production"
 	},
 	"keywords": [],
 	"author": "",

@@ -1,21 +1,17 @@
 ### Compiling SCSS, Tailwind CSS & JS
 
 
-#### Command to Install Dependencies after Cloning this Repository
-
+## Project setup
 ```
 npm install
 ```
 
-
-#### Command for Live Compiling and Making Bundle
-
+### Compiles and hot-reloads for development
 ```
-npx run serve
+npm run dev
 ```
 
-#### Command for production
-
+### Compiles and minifies for production
 ```
-npm run build
+npm run prod
 ```
