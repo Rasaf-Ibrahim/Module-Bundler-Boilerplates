@@ -37,4 +37,4 @@ mix
   })
 
 
-  //Warning: If you remove browerSync configuration and it's related package by 'npm remove', then this program will not work. 
+  //Warning: If you remove browerSync configuration, then this program will not work. 
