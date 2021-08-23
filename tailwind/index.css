@@ -1,4 +1,4 @@
-/* Importing is possible with the help of  postcss-import plugin, have to import in the top of the page.  */
+/* Importing is possible with the help of  postcss-import plugin, have to import  at the top of the page.  */
 
 @import './animation.css';
 @import './heading.css';
