@@ -1,0 +1,25 @@
+{
+  "name": "Module-Bundler-Boilerplates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mix watch",
+    "prod": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rasaf-Ibrahim/Module-Bundler-Boilerplates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rasaf-Ibrahim/Module-Bundler-Boilerplates/issues"
+  },
+  "homepage": "https://github.com/Rasaf-Ibrahim/Module-Bundler-Boilerplates#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.28",
+    "webpack-livereload-plugin": "^1.2.0"
+  }
+}
