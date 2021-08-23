@@ -1,0 +1,1 @@
+### Compile Javascript with Laravel Mix
