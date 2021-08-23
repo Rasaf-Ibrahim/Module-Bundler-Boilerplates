@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-cli",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx tailwindcss --postcss  -i ./tailwind/index.css -o ./dist/index.css --watch",
+
+    "prod": "NODE_ENV=production npx tailwindcss --postcss  -i ./tailwind/index.css -o ./dist/index.css --minify"
+  },
+  
+  "devDependencies": {
+    "autoprefixer": "^10.3.2",
+    "postcss": "^8.3.6",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^2.2.7"
+  }
+}

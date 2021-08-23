@@ -1,0 +1,37 @@
+/* Importing is possible with the help of  postcss-import plugin, have to import in the top of the page.  */
+
+@import './animation.css';
+@import './heading.css';
+
+
+
+/* tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* SASS like nesting is possible with the help of  postcss-nesting plugin*/
+
+
+ span{
+
+    &.test{
+        background-color:teal;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
