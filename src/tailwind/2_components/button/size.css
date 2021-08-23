@@ -1,0 +1,21 @@
+@layer utilities {
+
+/* Button Size */
+
+.-btn-sm{
+    @apply
+    -h6;
+}
+
+.-btn-md{
+    @apply
+    -h5;
+}
+
+.-btn-lg{
+    @apply
+    -p;
+}
+
+
+}

@@ -1,0 +1,58 @@
+@layer base {
+
+
+    :root {
+
+
+         /* bg-s-t1a1  or, text-s-t1a1 */
+         --surface-type-1-alpha-1:hsl(100,33%,97%);
+
+         /*bg-s-t1a2 or, text-s-t1a2  */
+         --surface-type-1-alpha-2:hsl(100,33%,95%);
+ 
+         /*bg-s-t1a3  or, text-s-t1a3 */
+         --surface-type-1-alpha-3:hsl(100,33%,93%);
+
+         /*bg-s-t1a4  or, text-s-t1a4 */
+         --surface-type-1-alpha-4:hsl(100,33%,91%);
+
+         /*bg-s-t1a5  or, text-s-t1a5 */
+         --surface-type-1-alpha-5:hsl(100,33%,89%);
+
+    }
+
+    .dark {
+
+   
+
+   
+  
+         /* bg-s-t1a1  or, text-s-t1a1 */
+         --surface-type-1-alpha-1:hsl(100,33%,8%);
+
+         /*bg-s-t1a2 or, text-s-t1a2 */
+         --surface-type-1-alpha-2:hsl(100,33%,11%);
+ 
+         /*bg-s-t1a3  or, text-s-t1a3 */
+         --surface-type-1-alpha-3:hsl(100,33%,14%);
+
+         /*bg-s-t1a4  or, text-s-t1a4 */
+         --surface-type-1-alpha-4:hsl(100,33%,17%);
+
+         /*bg-s-t1a5  or, text-s-t1a5 */
+         --surface-type-1-alpha-5:hsl(100,33%,20%);
+
+
+    }
+
+}
+
+
+
+/* 
+
+Dark Green  180,33%,10% 
+
+Dark Deep Green  100,33%,8%
+
+*/

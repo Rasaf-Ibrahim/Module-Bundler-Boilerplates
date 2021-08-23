@@ -1,0 +1,32 @@
+@layer utilities {
+
+/* router-link-active */
+
+.nuxt-link-exact-active{
+
+/* -btn-border-color-t1l1 */
+
+    @apply
+
+    bg-transparent text-b-t1l1a1
+    border border-brand-t1l1a1
+    hover:bg-b-t1l1a3 hover:text-l2-a1;
+    
+ 
+}
+
+
+.dark .nuxt-link-exact-active {
+
+  /* -btn-border-color-t2l1 */
+ 
+    @apply
+
+    bg-transparent text-b-t1l1a1
+    border border-brand-t1l1a1
+    hover:bg-b-t1l1a3 hover:text-l2-a1;
+
+     
+}
+
+}

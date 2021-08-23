@@ -1,0 +1,35 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&family=Lobster+Two&family=Kaushan+Script&family=Yatra+One&family=Train+One&family=Indie+Flower&family=Atma&display=swap');
+
+
+
+/* Importing is possible with the help of  postcss-import plugin, have to import at the top of the page.  */
+
+
+@import './1_theme/_theme.css';
+
+@import './2_components/_components.css';
+
+@import './3_helpers/_helpers.css';
+
+@import './websiteSpecifc/_websiteSpecific.css';
+
+
+
+
+/* tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+
+
+
+
+
